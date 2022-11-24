@@ -19,3 +19,4 @@ for r, d, f in os.walk(path_normal):
             list_of_files_in_normal.append(file)
             # print('Пути к файлам (model,visual):', os.path.join(r, file))
 print('\nСписок фалов (.model,.visual):', *list_of_files_in_normal, sep='\n', end='\n')
+
