@@ -1,3 +1,3 @@
-# mentor_tasks
+# Mentor_tasks
 ## Solving problems from a mentor
  
