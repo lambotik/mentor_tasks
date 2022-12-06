@@ -2,7 +2,7 @@ import os.path
 from pathlib import Path
 
 # r=root, d=directories, f = files
-path_env = Path('E:\\Games\\wot\\res\\content\\Environment\\env_null_model')
+path_env = Path(r'E:\Games\wot\res\content\Environment\env_null_model')
 list_of_files_in_env = []
 for r, d, f in os.walk(path_env):
     for file in f:
@@ -11,7 +11,7 @@ for r, d, f in os.walk(path_env):
             # print('Пути к файлам (model,visual):',os.path.join(r, file))
 print('Список фалов (.model,.visual):', *list_of_files_in_env, sep='\n', end='\n')
 
-path_normal = Path('E:\\Games\\wot\\res\\content\\Decor\\dec_001_BranchesCommon\\normal')
+path_normal = Path(r'E:\Games\wot\res\content\Decor\dec_001_BranchesCommon\normal')
 list_of_files_in_normal = []
 for r, d, f in os.walk(path_normal):
     for file in f:
